@@ -4,7 +4,7 @@ return new_hash
 end
 
 def my_hash
-  my_hash {
+  my_hash= {
     fruit: "apple"
   }
 return my_hash
