@@ -1,11 +1,15 @@
 def new_hash
   new_hash={}
 end
+return new_hash
+end
 
 def my_hash
   my_hash {
-    :test 
+    fruit: "apple"
   }
+end
+return my_hash
 end
 
 def pioneer
